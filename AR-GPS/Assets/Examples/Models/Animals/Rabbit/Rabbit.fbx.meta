@@ -1,0 +1,1050 @@
+fileFormatVersion: 2
+guid: 40c246985efde4e7fbea46aa2ca7a8c9
+timeCreated: 1465465259
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Arm.L
+    100002: Arm.R
+    100004: Armature
+    100006: Ear01.L
+    100008: Ear01.R
+    100010: Ear02.L
+    100012: Ear02.R
+    100014: Ear03.L
+    100016: Ear03.R
+    100018: Ear04.L
+    100020: Ear04.L_end
+    100022: Ear04.R
+    100024: Ear04.R_end
+    100026: EarIK.L
+    100028: EarIK.L_end
+    100030: EarIK.R
+    100032: EarIK.R_end
+    100034: Foot.L
+    100036: Foot.R
+    100038: FootCtrl.L
+    100040: FootCtrl.R
+    100042: FootIK.L
+    100044: FootIK.L_end
+    100046: FootIK.R
+    100048: FootIK.R_end
+    100050: FootRollCtrl.L
+    100052: FootRollCtrl.L_end
+    100054: FootRollCtrl.R
+    100056: FootRollCtrl.R_end
+    100058: Hand.L
+    100060: Hand.L_end
+    100062: Hand.R
+    100064: Hand.R_end
+    100066: HandIK.L
+    100068: HandIK.L_end
+    100070: HandIK.R
+    100072: HandIK.R_end
+    100074: Head
+    100076: HeadIK
+    100078: HeelRoll.L
+    100080: HeelRoll.R
+    100082: Hips
+    100084: Leg.L
+    100086: Leg.R
+    100088: Rabbit
+    100090: //RootNode
+    100092: Root
+    100094: Shoulder.L
+    100096: Shoulder.R
+    100098: Spine
+    100100: Spine01
+    100102: Spine02
+    100104: Spine03
+    100106: Tail
+    100108: Tail_end
+    100110: Toe.L
+    100112: Toe.L_end
+    100114: Toe.R
+    100116: Toe.R_end
+    100118: ToeRoll.L
+    100120: ToeRoll.R
+    100122: UpperArm.L
+    100124: UpperArm.R
+    100126: UpperLeg.L
+    100128: UpperLeg.R
+    400000: Arm.L
+    400002: Arm.R
+    400004: Armature
+    400006: Ear01.L
+    400008: Ear01.R
+    400010: Ear02.L
+    400012: Ear02.R
+    400014: Ear03.L
+    400016: Ear03.R
+    400018: Ear04.L
+    400020: Ear04.L_end
+    400022: Ear04.R
+    400024: Ear04.R_end
+    400026: EarIK.L
+    400028: EarIK.L_end
+    400030: EarIK.R
+    400032: EarIK.R_end
+    400034: Foot.L
+    400036: Foot.R
+    400038: FootCtrl.L
+    400040: FootCtrl.R
+    400042: FootIK.L
+    400044: FootIK.L_end
+    400046: FootIK.R
+    400048: FootIK.R_end
+    400050: FootRollCtrl.L
+    400052: FootRollCtrl.L_end
+    400054: FootRollCtrl.R
+    400056: FootRollCtrl.R_end
+    400058: Hand.L
+    400060: Hand.L_end
+    400062: Hand.R
+    400064: Hand.R_end
+    400066: HandIK.L
+    400068: HandIK.L_end
+    400070: HandIK.R
+    400072: HandIK.R_end
+    400074: Head
+    400076: HeadIK
+    400078: HeelRoll.L
+    400080: HeelRoll.R
+    400082: Hips
+    400084: Leg.L
+    400086: Leg.R
+    400088: Rabbit
+    400090: //RootNode
+    400092: Root
+    400094: Shoulder.L
+    400096: Shoulder.R
+    400098: Spine
+    400100: Spine01
+    400102: Spine02
+    400104: Spine03
+    400106: Tail
+    400108: Tail_end
+    400110: Toe.L
+    400112: Toe.L_end
+    400114: Toe.R
+    400116: Toe.R_end
+    400118: ToeRoll.L
+    400120: ToeRoll.R
+    400122: UpperArm.L
+    400124: UpperArm.R
+    400126: UpperLeg.L
+    400128: UpperLeg.R
+    4300000: Rabbit
+    7400000: All Animations
+    7400002: Idle Loop
+    7400004: Run Loop
+    7400006: Sprint Loop
+    7400008: Idle Loop Action - Alert
+    9500000: //RootNode
+    13700000: Rabbit
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rabido
+    second: {fileID: 2100000, guid: f3ec0ae2c90794d879a0f7ebb5f45fb2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: All Animations
+      takeName: Armature|ArmatureAction.003
+      firstFrame: 0
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootCtrl.L
+        weight: 1
+      - path: Armature/FootCtrl.L/FootRollCtrl.L
+        weight: 1
+      - path: Armature/FootCtrl.L/FootRollCtrl.L/FootRollCtrl.L_end
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L/ToeRoll.L
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L/ToeRoll.L/FootIK.L
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L/ToeRoll.L/FootIK.L/FootIK.L_end
+        weight: 1
+      - path: Armature/FootCtrl.R
+        weight: 1
+      - path: Armature/FootCtrl.R/FootRollCtrl.R
+        weight: 1
+      - path: Armature/FootCtrl.R/FootRollCtrl.R/FootRollCtrl.R_end
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R/ToeRoll.R
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R/ToeRoll.R/FootIK.R
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R/ToeRoll.R/FootIK.R/FootIK.R_end
+        weight: 1
+      - path: Armature/HandIK.L
+        weight: 1
+      - path: Armature/HandIK.L/HandIK.L_end
+        weight: 1
+      - path: Armature/HandIK.R
+        weight: 1
+      - path: Armature/HandIK.R/HandIK.R_end
+        weight: 1
+      - path: Armature/HeadIK
+        weight: 1
+      - path: Armature/HeadIK/EarIK.L
+        weight: 1
+      - path: Armature/HeadIK/EarIK.L/EarIK.L_end
+        weight: 1
+      - path: Armature/HeadIK/EarIK.R
+        weight: 1
+      - path: Armature/HeadIK/EarIK.R/EarIK.R_end
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Root
+        weight: 1
+      - path: Armature/Hips/Root/Tail
+        weight: 1
+      - path: Armature/Hips/Root/Tail/Tail_end
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L/Arm.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L/Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L/Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R/Arm.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R/Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R/Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L/Ear03.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L/Ear03.L/Ear04.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L/Ear03.L/Ear04.L/Ear04.L_end
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R/Ear03.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R/Ear03.R/Ear04.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R/Ear03.R/Ear04.R/Ear04.R_end
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Rabbit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle Loop
+      takeName: Armature|ArmatureAction.003
+      firstFrame: 1
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 1
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootCtrl.L
+        weight: 1
+      - path: Armature/FootCtrl.L/FootRollCtrl.L
+        weight: 1
+      - path: Armature/FootCtrl.L/FootRollCtrl.L/FootRollCtrl.L_end
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L/ToeRoll.L
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L/ToeRoll.L/FootIK.L
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L/ToeRoll.L/FootIK.L/FootIK.L_end
+        weight: 1
+      - path: Armature/FootCtrl.R
+        weight: 1
+      - path: Armature/FootCtrl.R/FootRollCtrl.R
+        weight: 1
+      - path: Armature/FootCtrl.R/FootRollCtrl.R/FootRollCtrl.R_end
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R/ToeRoll.R
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R/ToeRoll.R/FootIK.R
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R/ToeRoll.R/FootIK.R/FootIK.R_end
+        weight: 1
+      - path: Armature/HandIK.L
+        weight: 1
+      - path: Armature/HandIK.L/HandIK.L_end
+        weight: 1
+      - path: Armature/HandIK.R
+        weight: 1
+      - path: Armature/HandIK.R/HandIK.R_end
+        weight: 1
+      - path: Armature/HeadIK
+        weight: 1
+      - path: Armature/HeadIK/EarIK.L
+        weight: 1
+      - path: Armature/HeadIK/EarIK.L/EarIK.L_end
+        weight: 1
+      - path: Armature/HeadIK/EarIK.R
+        weight: 1
+      - path: Armature/HeadIK/EarIK.R/EarIK.R_end
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Root
+        weight: 1
+      - path: Armature/Hips/Root/Tail
+        weight: 1
+      - path: Armature/Hips/Root/Tail/Tail_end
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L/Arm.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L/Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L/Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R/Arm.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R/Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R/Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L/Ear03.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L/Ear03.L/Ear04.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L/Ear03.L/Ear04.L/Ear04.L_end
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R/Ear03.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R/Ear03.R/Ear04.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R/Ear03.R/Ear04.R/Ear04.R_end
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Rabbit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run Loop
+      takeName: Armature|ArmatureAction.003
+      firstFrame: 181
+      lastFrame: 211
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 181
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.7394366
+        functionName: PlayFootstep
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2fba98a823b7e488db17fc14c6b07f79,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.98591566
+        functionName: PlayFootstep
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 2fba98a823b7e488db17fc14c6b07f79,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootCtrl.L
+        weight: 1
+      - path: Armature/FootCtrl.L/FootRollCtrl.L
+        weight: 1
+      - path: Armature/FootCtrl.L/FootRollCtrl.L/FootRollCtrl.L_end
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L/ToeRoll.L
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L/ToeRoll.L/FootIK.L
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L/ToeRoll.L/FootIK.L/FootIK.L_end
+        weight: 1
+      - path: Armature/FootCtrl.R
+        weight: 1
+      - path: Armature/FootCtrl.R/FootRollCtrl.R
+        weight: 1
+      - path: Armature/FootCtrl.R/FootRollCtrl.R/FootRollCtrl.R_end
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R/ToeRoll.R
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R/ToeRoll.R/FootIK.R
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R/ToeRoll.R/FootIK.R/FootIK.R_end
+        weight: 1
+      - path: Armature/HandIK.L
+        weight: 1
+      - path: Armature/HandIK.L/HandIK.L_end
+        weight: 1
+      - path: Armature/HandIK.R
+        weight: 1
+      - path: Armature/HandIK.R/HandIK.R_end
+        weight: 1
+      - path: Armature/HeadIK
+        weight: 1
+      - path: Armature/HeadIK/EarIK.L
+        weight: 1
+      - path: Armature/HeadIK/EarIK.L/EarIK.L_end
+        weight: 1
+      - path: Armature/HeadIK/EarIK.R
+        weight: 1
+      - path: Armature/HeadIK/EarIK.R/EarIK.R_end
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Root
+        weight: 1
+      - path: Armature/Hips/Root/Tail
+        weight: 1
+      - path: Armature/Hips/Root/Tail/Tail_end
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L/Arm.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L/Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L/Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R/Arm.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R/Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R/Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L/Ear03.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L/Ear03.L/Ear04.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L/Ear03.L/Ear04.L/Ear04.L_end
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R/Ear03.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R/Ear03.R/Ear04.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R/Ear03.R/Ear04.R/Ear04.R_end
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Rabbit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sprint Loop
+      takeName: Armature|ArmatureAction.003
+      firstFrame: 211
+      lastFrame: 228
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 211
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.6642394
+        functionName: PlayFootstep
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: e9b3edb80210d442ea92dcd7dbd1f861,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.9858361
+        functionName: PlayFootstep
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: e9b3edb80210d442ea92dcd7dbd1f861,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootCtrl.L
+        weight: 1
+      - path: Armature/FootCtrl.L/FootRollCtrl.L
+        weight: 1
+      - path: Armature/FootCtrl.L/FootRollCtrl.L/FootRollCtrl.L_end
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L/ToeRoll.L
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L/ToeRoll.L/FootIK.L
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L/ToeRoll.L/FootIK.L/FootIK.L_end
+        weight: 1
+      - path: Armature/FootCtrl.R
+        weight: 1
+      - path: Armature/FootCtrl.R/FootRollCtrl.R
+        weight: 1
+      - path: Armature/FootCtrl.R/FootRollCtrl.R/FootRollCtrl.R_end
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R/ToeRoll.R
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R/ToeRoll.R/FootIK.R
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R/ToeRoll.R/FootIK.R/FootIK.R_end
+        weight: 1
+      - path: Armature/HandIK.L
+        weight: 1
+      - path: Armature/HandIK.L/HandIK.L_end
+        weight: 1
+      - path: Armature/HandIK.R
+        weight: 1
+      - path: Armature/HandIK.R/HandIK.R_end
+        weight: 1
+      - path: Armature/HeadIK
+        weight: 1
+      - path: Armature/HeadIK/EarIK.L
+        weight: 1
+      - path: Armature/HeadIK/EarIK.L/EarIK.L_end
+        weight: 1
+      - path: Armature/HeadIK/EarIK.R
+        weight: 1
+      - path: Armature/HeadIK/EarIK.R/EarIK.R_end
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Root
+        weight: 1
+      - path: Armature/Hips/Root/Tail
+        weight: 1
+      - path: Armature/Hips/Root/Tail/Tail_end
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L/Arm.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L/Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L/Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R/Arm.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R/Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R/Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L/Ear03.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L/Ear03.L/Ear04.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L/Ear03.L/Ear04.L/Ear04.L_end
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R/Ear03.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R/Ear03.R/Ear04.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R/Ear03.R/Ear04.R/Ear04.R_end
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Rabbit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle Loop Action - Alert
+      takeName: Armature|ArmatureAction.003
+      firstFrame: 229
+      lastFrame: 400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/FootCtrl.L
+        weight: 1
+      - path: Armature/FootCtrl.L/FootRollCtrl.L
+        weight: 1
+      - path: Armature/FootCtrl.L/FootRollCtrl.L/FootRollCtrl.L_end
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L/ToeRoll.L
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L/ToeRoll.L/FootIK.L
+        weight: 1
+      - path: Armature/FootCtrl.L/HeelRoll.L/ToeRoll.L/FootIK.L/FootIK.L_end
+        weight: 1
+      - path: Armature/FootCtrl.R
+        weight: 1
+      - path: Armature/FootCtrl.R/FootRollCtrl.R
+        weight: 1
+      - path: Armature/FootCtrl.R/FootRollCtrl.R/FootRollCtrl.R_end
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R/ToeRoll.R
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R/ToeRoll.R/FootIK.R
+        weight: 1
+      - path: Armature/FootCtrl.R/HeelRoll.R/ToeRoll.R/FootIK.R/FootIK.R_end
+        weight: 1
+      - path: Armature/HandIK.L
+        weight: 1
+      - path: Armature/HandIK.L/HandIK.L_end
+        weight: 1
+      - path: Armature/HandIK.R
+        weight: 1
+      - path: Armature/HandIK.R/HandIK.R_end
+        weight: 1
+      - path: Armature/HeadIK
+        weight: 1
+      - path: Armature/HeadIK/EarIK.L
+        weight: 1
+      - path: Armature/HeadIK/EarIK.L/EarIK.L_end
+        weight: 1
+      - path: Armature/HeadIK/EarIK.R
+        weight: 1
+      - path: Armature/HeadIK/EarIK.R/EarIK.R_end
+        weight: 1
+      - path: Armature/Hips
+        weight: 1
+      - path: Armature/Hips/Root
+        weight: 1
+      - path: Armature/Hips/Root/Tail
+        weight: 1
+      - path: Armature/Hips/Root/Tail/Tail_end
+        weight: 1
+      - path: Armature/Hips/Spine
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L/Arm.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L/Arm.L/Hand.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.L/UpperArm.L/Arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R/Arm.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R/Arm.R/Hand.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Shoulder.R/UpperArm.R/Arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L/Ear03.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L/Ear03.L/Ear04.L
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.L/Ear02.L/Ear03.L/Ear04.L/Ear04.L_end
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R/Ear03.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R/Ear03.R/Ear04.R
+        weight: 1
+      - path: Armature/Hips/Spine/Spine01/Spine02/Spine03/Head/Ear01.R/Ear02.R/Ear03.R/Ear04.R/Ear04.R_end
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L/Foot.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Armature/Hips/UpperLeg.L/Leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R/Foot.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Armature/Hips/UpperLeg.R/Leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Rabbit
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

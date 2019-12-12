@@ -1,0 +1,781 @@
+fileFormatVersion: 2
+guid: 6b76a981f6f734585b06cf1e9c76520c
+timeCreated: 1466577545
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Head
+    100004: Head_end
+    100006: HeadIK
+    100008: HeadIK_end
+    100010: Hips
+    100012: Leg.L
+    100014: Leg.R
+    100016: LegIK.L
+    100018: LegIK.L_end
+    100020: LegIK.R
+    100022: LegIK.R_end
+    100024: //RootNode
+    100026: Lintu
+    100028: Neck
+    100030: Spine
+    100032: Spine01
+    100034: Tail
+    100036: Tail_end
+    100038: Thumb.L
+    100040: Thumb.L_end
+    100042: Thumb.R
+    100044: Thumb.R_end
+    100046: Toe.L
+    100048: Toe.L_end
+    100050: Toe.R
+    100052: Toe.R_end
+    100054: UpperLeg.L
+    100056: UpperLeg.R
+    100058: Wing1.L
+    100060: Wing1.R
+    100062: Wing2.L
+    100064: Wing2.R
+    100066: WingTip.L
+    100068: WingTip.L_end
+    100070: WingTip.R
+    100072: WingTip.R_end
+    400000: Armature
+    400002: Head
+    400004: Head_end
+    400006: HeadIK
+    400008: HeadIK_end
+    400010: Hips
+    400012: Leg.L
+    400014: Leg.R
+    400016: LegIK.L
+    400018: LegIK.L_end
+    400020: LegIK.R
+    400022: LegIK.R_end
+    400024: //RootNode
+    400026: Lintu
+    400028: Neck
+    400030: Spine
+    400032: Spine01
+    400034: Tail
+    400036: Tail_end
+    400038: Thumb.L
+    400040: Thumb.L_end
+    400042: Thumb.R
+    400044: Thumb.R_end
+    400046: Toe.L
+    400048: Toe.L_end
+    400050: Toe.R
+    400052: Toe.R_end
+    400054: UpperLeg.L
+    400056: UpperLeg.R
+    400058: Wing1.L
+    400060: Wing1.R
+    400062: Wing2.L
+    400064: Wing2.R
+    400066: WingTip.L
+    400068: WingTip.L_end
+    400070: WingTip.R
+    400072: WingTip.R_end
+    4300000: Lintu
+    7400000: Bird - All Animations
+    7400002: Armature|CircleAction
+    7400004: Armature|CircleAction.001
+    7400006: Armature|CircleAction.002
+    7400008: Armature|CircleAction.003
+    7400010: Armature|CircleAction.004
+    7400012: Armature|CircleAction.006
+    7400014: Armature|CircleAction.009
+    7400016: Armature|CircleAction.010
+    7400018: Armature|CircleAction.011
+    7400020: Idle Loop
+    7400022: Lift Off
+    7400024: FlapLoop
+    7400026: Glide Loop
+    7400028: Landing
+    9500000: //RootNode
+    13700000: Lintu
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bird - All Animations
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 0
+      lastFrame: 890
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/HeadIK
+        weight: 1
+      - path: Armature/HeadIK/HeadIK_end
+        weight: 1
+      - path: Armature/LegIK.L
+        weight: 1
+      - path: Armature/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/LegIK.R
+        weight: 1
+      - path: Armature/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Hips
+        weight: 1
+      - path: Armature/Spine/Hips/Tail
+        weight: 1
+      - path: Armature/Spine/Hips/Tail/Tail_end
+        weight: 1
+      - path: Armature/Spine/Spine01
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck/Head
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Thumb.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Toe.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Thumb.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Toe.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Armature/Spine/Wing1.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L/WingTip.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L/WingTip.L/WingTip.L_end
+        weight: 1
+      - path: Armature/Spine/Wing1.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R/WingTip.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R/WingTip.R/WingTip.R_end
+        weight: 1
+      - path: Lintu
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle Loop
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 1
+      lastFrame: 370
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/HeadIK
+        weight: 1
+      - path: Armature/HeadIK/HeadIK_end
+        weight: 1
+      - path: Armature/LegIK.L
+        weight: 1
+      - path: Armature/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/LegIK.R
+        weight: 1
+      - path: Armature/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Hips
+        weight: 1
+      - path: Armature/Spine/Hips/Tail
+        weight: 1
+      - path: Armature/Spine/Hips/Tail/Tail_end
+        weight: 1
+      - path: Armature/Spine/Spine01
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck/Head
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Thumb.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Toe.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Thumb.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Toe.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Armature/Spine/Wing1.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L/WingTip.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L/WingTip.L/WingTip.L_end
+        weight: 1
+      - path: Armature/Spine/Wing1.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R/WingTip.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R/WingTip.R/WingTip.R_end
+        weight: 1
+      - path: Lintu
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Lift Off
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 370
+      lastFrame: 470
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/HeadIK
+        weight: 1
+      - path: Armature/HeadIK/HeadIK_end
+        weight: 1
+      - path: Armature/LegIK.L
+        weight: 1
+      - path: Armature/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/LegIK.R
+        weight: 1
+      - path: Armature/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Hips
+        weight: 1
+      - path: Armature/Spine/Hips/Tail
+        weight: 1
+      - path: Armature/Spine/Hips/Tail/Tail_end
+        weight: 1
+      - path: Armature/Spine/Spine01
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck/Head
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Thumb.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Toe.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Thumb.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Toe.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Armature/Spine/Wing1.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L/WingTip.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L/WingTip.L/WingTip.L_end
+        weight: 1
+      - path: Armature/Spine/Wing1.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R/WingTip.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R/WingTip.R/WingTip.R_end
+        weight: 1
+      - path: Lintu
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FlapLoop
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 470
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 470
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/HeadIK
+        weight: 1
+      - path: Armature/HeadIK/HeadIK_end
+        weight: 1
+      - path: Armature/LegIK.L
+        weight: 1
+      - path: Armature/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/LegIK.R
+        weight: 1
+      - path: Armature/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Hips
+        weight: 1
+      - path: Armature/Spine/Hips/Tail
+        weight: 1
+      - path: Armature/Spine/Hips/Tail/Tail_end
+        weight: 1
+      - path: Armature/Spine/Spine01
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck/Head
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Thumb.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Toe.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Thumb.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Toe.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Armature/Spine/Wing1.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L/WingTip.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L/WingTip.L/WingTip.L_end
+        weight: 1
+      - path: Armature/Spine/Wing1.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R/WingTip.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R/WingTip.R/WingTip.R_end
+        weight: 1
+      - path: Lintu
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Glide Loop
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 500
+      lastFrame: 800
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 500
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/HeadIK
+        weight: 1
+      - path: Armature/HeadIK/HeadIK_end
+        weight: 1
+      - path: Armature/LegIK.L
+        weight: 1
+      - path: Armature/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/LegIK.R
+        weight: 1
+      - path: Armature/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Hips
+        weight: 1
+      - path: Armature/Spine/Hips/Tail
+        weight: 1
+      - path: Armature/Spine/Hips/Tail/Tail_end
+        weight: 1
+      - path: Armature/Spine/Spine01
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck/Head
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Thumb.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Toe.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Thumb.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Toe.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Armature/Spine/Wing1.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L/WingTip.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L/WingTip.L/WingTip.L_end
+        weight: 1
+      - path: Armature/Spine/Wing1.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R/WingTip.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R/WingTip.R/WingTip.R_end
+        weight: 1
+      - path: Lintu
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Landing
+      takeName: Armature|ArmatureAction.001
+      firstFrame: 800
+      lastFrame: 890
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/HeadIK
+        weight: 1
+      - path: Armature/HeadIK/HeadIK_end
+        weight: 1
+      - path: Armature/LegIK.L
+        weight: 1
+      - path: Armature/LegIK.L/LegIK.L_end
+        weight: 1
+      - path: Armature/LegIK.R
+        weight: 1
+      - path: Armature/LegIK.R/LegIK.R_end
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Hips
+        weight: 1
+      - path: Armature/Spine/Hips/Tail
+        weight: 1
+      - path: Armature/Spine/Hips/Tail/Tail_end
+        weight: 1
+      - path: Armature/Spine/Spine01
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck/Head
+        weight: 1
+      - path: Armature/Spine/Spine01/Neck/Head/Head_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Thumb.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Thumb.L/Thumb.L_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Toe.L
+        weight: 1
+      - path: Armature/Spine/UpperLeg.L/Leg.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Thumb.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Thumb.R/Thumb.R_end
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Toe.R
+        weight: 1
+      - path: Armature/Spine/UpperLeg.R/Leg.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Armature/Spine/Wing1.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L/WingTip.L
+        weight: 1
+      - path: Armature/Spine/Wing1.L/Wing2.L/WingTip.L/WingTip.L_end
+        weight: 1
+      - path: Armature/Spine/Wing1.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R/WingTip.R
+        weight: 1
+      - path: Armature/Spine/Wing1.R/Wing2.R/WingTip.R/WingTip.R_end
+        weight: 1
+      - path: Lintu
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
