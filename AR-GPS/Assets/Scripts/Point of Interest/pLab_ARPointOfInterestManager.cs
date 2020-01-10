@@ -196,6 +196,7 @@ public class pLab_ARPointOfInterestManager : MonoBehaviour
         }
 
         ARSession.stateChanged -= OnARSessionStateChange;
+        StopTrackingPOIs();
     }
 
 
@@ -563,6 +564,40 @@ public class pLab_ARPointOfInterestManager : MonoBehaviour
         }
 
         poiTrackerDatas.Remove(trackerData);
+    }
+
+    /// <summary>
+    /// Stops tracking all the POIs, deleting all the canvases and gameobjects.
+    /// </summary>
+    private void StopTrackingPOIs() {
+        if (poiTrackerDatas != null) {
+            for(int i = 0; i < poiTrackerDatas.Count; i++) {
+                POITrackerData trackerData = poiTrackerDatas[i];
+                if (trackerData == null) continue;
+
+                pLab_PointOfInterest poi = trackerData.POI;
+
+                if (poi != null) {
+                    poi.TrackingState = POITrackingState.NotTracking;
+                }
+
+                pLab_PointOfInterestObjectBase poiObject = trackerData.POIObject;
+
+                //Destroy and remove poi 3D-model
+                if (poiObject != null) {
+                    Destroy(poiObject.gameObject);
+                }
+
+                //Destroy and remove poi canvas
+                pLab_PointOfInterestCanvasBase poiCanvas = trackerData.POICanvas;
+
+                if (poiCanvas != null) {
+                    Destroy(poiCanvas.gameObject);
+                }
+            }
+
+            poiTrackerDatas.Clear();
+        }
     }
 
     #endregion
