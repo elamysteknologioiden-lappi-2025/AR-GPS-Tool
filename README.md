@@ -10,15 +10,21 @@ Tool for Unity to place 3D-objects into a AR-world based on GPS-coordinates.
 1.0.0
 
 # Guide
-"Demo Scene" is an example scene on how to setup the tool.
-"AR GPS Tool" prefab contains the main components needed.
+Check "Demo Scene" for an example scene on how to setup the tool.
+
+1. Add "AR GPS Tool" prefab to the scene. This contains the main components needed.
+2. (Optional) Add "SupportCheck UI Canvas" prefab to the scene. This has the [Support Checker Component](#Support-Checker) which checks if the AR supported on the device.
+3. (Optional) Add "Finding True North Canvas" prefab to the scene. This has the [True North Calculation UI Component](#True-North-Calculation-UI) which shows an animated compass UI-element when the initial true north calculation is happening.
+4. Create [Point of Interests](#Point-Of-Interest) using the Unity's Create-menu. 
+5. Create a [Point of Interest Set](#Point-Of-Interest-Set), and assign the created point of interests assets to the set's list.
+6. Find the [AR Point Of Interest Manager](#AR-Point-Of-Interest-Manager) in the scene and assign the created point of interest set asset for it.
 
 Before use, see guides how to setup and use AR Foundation.
 
 ## Components/Scripts
 
 ### AR Point of Interest Manager
-Handles the calculations and positioning of point of interests. [Point of Interest Set](#Point-of-Interests) must be assigned containg all of the point of interests which to track.
+Handles the calculations and positioning of point of interests. [Point of Interest Set](#Point-of-Interests) must be assigned containg all of the point of interests which to track. 
 
 ### Location Provider
 Provides updates about the device's GPS-location. Emits events containing the location and the accuracy.
@@ -35,18 +41,28 @@ Uses the instantiated AR planes to get an estimate about the elevation of the de
 ### AR Disable Planes On Tracking Lost
 Disables all AR-planes if the tracking is lost.
 
+## UI Components/Scripts
+### Support Checker
+Checks if the device is supported or not, or if ARCore needs to be installed (Android). After the check is done, support information is passed in an event which can be listened to handle enabling the AR Session yourself. You can also set Support Checker to enable/disable the AR Session directly.
+
+### True North Calculation UI
+Shows a UI-element when the initial true north calculation is happening. You just have to assign the UI-element in the inspector.
+
 ## Point of Interests
+"Examples/ScriptableObjects"-folder contains examples of Point of Interests and Point of Interest Sets
+
 ### Point of Interest Set
 ScriptableObject that holds a list of Point of Interests.
 
 ### Point of Interest
 ScriptableObject that holds details of one Point of Interest.
- - Name
- - Description
- - GPS-coordinates
- - Tracking distances
- - Positioning (vertical)
- - Rotation
+ - Name: Name of the point of interest.
+ - Description: Description of the point of interest. This is used in one of the canvas examples, and can be used for other scripts.
+ - GPS-coordinates: Actual GPS-coordinates of the point of interest (Latitude and longitude)
+ - Tracking distances: How far the tracking starts. When point of interest is in the close tracking range, the model will not be moved anymore to stop models from "escaping" when a new GPS-location is recorded, or a new heading is calculated. Only the vertical position is recalculated.
+ - Positioning (vertical): Where to position the 3D-model vertically. Can be aligned to the ground, relative to the ground or relative to the device. The relative height value is used only when either of the relative modes are used.
+ - Rotation: Direction the 3D-model faces.
+ - Icon: Icon to show on the canvas
  - Object Prefab: Parent object that has a component that is inherited from PointOfInterestObjectBase. The component holds the logic for how to position the 3D-object.
  - Model Prefab: The actual 3D-model of the point of interest which will be instantiated.
  - Canvas Prefab: Canvas object that has a component that is inherited from PointOfInterestCanvasBase. The component holds the logic for how to position and display the canvas marker.

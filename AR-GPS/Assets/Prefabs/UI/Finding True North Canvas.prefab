@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 654894760615176039}
   - component: {fileID: 654894760615176036}
   m_Layer: 5
-  m_Name: Finding True North with Compass Indicator
+  m_Name: Finding True North Indicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 654894761093068466}
   - component: {fileID: 654894761093068469}
   m_Layer: 5
-  m_Name: Finding True North with Compass Indicator
+  m_Name: Finding True North Indicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 654894761786648579}
   - component: {fileID: 490084474}
   m_Layer: 5
-  m_Name: Finding True North with Compass Canvas
+  m_Name: Finding True North Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
