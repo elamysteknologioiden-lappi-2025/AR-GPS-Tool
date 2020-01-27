@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4ff9a291a9491748aed9318679b4340, type: 3}
+  m_Name: Point of Interest Set 1
+  m_EditorClassIdentifier: 
+  pointOfInterests:
+  - {fileID: 11400000, guid: 3c7e29cbd5c52f5449fe08e837a55086, type: 2}
+  - {fileID: 11400000, guid: 43931c46fdb0f6949a7f26a586a16b42, type: 2}
+  - {fileID: 11400000, guid: ad57c4985bbd9174296d6e610af74544, type: 2}
+  - {fileID: 11400000, guid: a0b896736ea527445930a0896eba74d0, type: 2}
+  - {fileID: 11400000, guid: b52e46f603f37d149bcc666721dd2a7b, type: 2}
+  - {fileID: 11400000, guid: 5aec2f7662327a44b84cc4d7e507abed, type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85a23cc72d52a724ba59d8993adcfbfc, type: 3}
+  m_Name: Eerik
+  m_EditorClassIdentifier: 
+  poiName: Eerik
+  description: Eerik is a magician.
+  icon: {fileID: 0}
+  objectPrefab: {fileID: 1387282488151261120, guid: cfcbe904f98d89742b25a01727d2f025,
+    type: 3}
+  modelPrefab: {fileID: 300323970660360554, guid: eac0a0d480035f344ab50e79d932619f,
+    type: 3}
+  canvasPrefab: {fileID: 1531612421245766800, guid: 8a6cd4573d0f62b4a91cfa6fc4c2a239,
+    type: 3}
+  coordinates:
+    lat: 66.482
+    lon: 25.726
+  trackingRadius: 100
+  trackingExitMargin: 20
+  closeTrackingRadius: 20
+  closeTrackingExitMargin: 10
+  positionMode: 0
+  facingDirectionHeading: 90
+  relativeHeight: 0

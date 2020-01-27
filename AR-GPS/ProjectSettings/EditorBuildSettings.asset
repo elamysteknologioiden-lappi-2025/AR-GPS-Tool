@@ -6,11 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/ARGPSScene.unity
+    path: Assets/Scenes/Demo Scene.unity
     guid: b9b67204078265d43ab86279dd74d304
   - enabled: 1
-    path: Assets/Debug/Scenes/ARGPSScene_Debug.unity
+    path: Assets/Debug/Scenes/Demo with Debug Scene.unity
     guid: da7bcd0ee41d531438a2eea7bb79fc42
   m_configObjects:
     com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: 73b0bbe42a86abe48af8928457a1d47f,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3af89e56f107d634fbd4839ae77155d8,
       type: 2}
