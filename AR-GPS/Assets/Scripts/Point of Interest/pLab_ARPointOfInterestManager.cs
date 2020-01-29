@@ -354,7 +354,10 @@ public class pLab_ARPointOfInterestManager : MonoBehaviour
             //Maybe should actually search for a plane close to this and "anchor" it to that, or try to find nearest plane to get the height
             //If close tracking -> don't update the position to avoid jitter and unability to inspect object closely
             if (!poi.CloseTracking && distanceBetween <= poi.CloseTrackingRadius) {
-                CreateObjectsForPOI(poi);
+                if (!poi.FarTracking) {
+                    CreateObjectsForPOI(poi);
+                }
+                
                 poi.TrackingState = POITrackingState.CloseTracking;
             }
             else if (!poi.Tracking && distanceBetween <= poi.TrackingRadius) {
