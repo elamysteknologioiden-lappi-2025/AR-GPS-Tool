@@ -283,6 +283,8 @@ public class pLab_ARPointOfInterestManager : MonoBehaviour
         // CheckDistances();
         if (evt.state == ARSessionState.SessionTracking) {
             RecheckPOITrackings();
+        } else {
+            StopTrackingPOIs();
         }
     }
 
@@ -492,6 +494,14 @@ public class pLab_ARPointOfInterestManager : MonoBehaviour
     /// </summary>
     /// <param name="poi"></param>
     private void CreateObjectsForPOI(pLab_PointOfInterest poi) {
+        
+
+        //Check if there is already objects for this tracker
+        if (poiTrackerDatas != null && poiTrackerDatas.Count > 0) {
+            POITrackerData poiTracker = poiTrackerDatas.Find((x) => x.POI == poi);
+            if (poiTracker != null) return;
+        }
+
         GameObject objectGo = null;
         GameObject modelGo = null;
         GameObject poiCanvasGo = null;
@@ -596,7 +606,13 @@ public class pLab_ARPointOfInterestManager : MonoBehaviour
                 }
             }
 
+            //Make sure every poi is set to "NotTracking"-state
+            for(int i = 0; i < PointOfInterests.Count; i++) {
+                PointOfInterests[i].TrackingState = POITrackingState.NotTracking;
+            }
+
             poiTrackerDatas.Clear();
+
         }
     }
 
